@@ -1,4 +1,4 @@
-\*\* Basics
+## Basics
 
 1. [ ] Did you run the tests?
 2. [ ] Are the tests passing? Screenshot added to the PR
@@ -6,7 +6,7 @@
 4. [ ] Does the design match Figma? Fonts? Colors? Paddings? Margins?
 5. [ ] Is it responsive? Does the mobile web version not break and look good?
 
-\*\*Code Quality
+## Code Quality
 
 6. [ ] Does the code follow a consistent coding style and conventions (using BEM on the web)?
 7. [ ] No use of !important.
@@ -34,7 +34,7 @@
 29. [ ] Imports hooks from the top along with React, no React.useState
 30. [ ] Do not use libraries for what you can do native, like handles dates and use moment js
 
-\*\*Performance
+## Performance
 
 31. [ ] Is the code optimized for performance, avoiding unnecessary re-renders?
 32. [ ] No excessive API requests or unnecessary data fetching.
@@ -47,7 +47,7 @@
 39. [ ] Properly handles and tests for navigation menus.
 40. [ ] Properly handles and tests for pagination.
 
-\*\*Accessibility
+## Accessibility
 
 41. [ ] Proper use of semantic HTML elements.
 42. [ ] All images have appropriate alt text.
@@ -55,7 +55,7 @@
 44. [ ] ARIA attributes are used where necessary.
 45. [ ] Conduct accessibility testing using tools like Axe or Lighthouse.
 
-\*\*Testing
+## Testing
 
 46. [ ] Unit tests cover key functionality.
 47. [ ] Integration tests cover the interactions between components.
@@ -65,20 +65,20 @@
 51. [ ] Review code comments and documentation for clarity and completeness.
 52. [ ] Properly handles and tests for form submissions.
 
-\*\*Documentation
+## Documentation
 
 54. [ ] Code comments and docstrings are up-to-date.
 55. [ ] Readme.md is updated with any new information or changes.
 56. [ ] API documentation (if applicable) is updated.
 
-\*\*Security
+## Security
 
 57. [ ] No security vulnerabilities (e.g., XSS, CSRF) introduced.
 58. [ ] Sensitive data is handled securely (e.g., no hardcoded secrets).
 59. [ ] Ensure there's a backup and recovery plan in place for data and code.
 60. [ ] Ensure there are policies in place for data backups and retention.
 
-\*\*Dependency Management
+## Dependency Management
 
 61. [ ] Dependencies are up-to-date.
 62. [ ] No vulnerable dependencies are used.
@@ -90,7 +90,7 @@
 68. [ ] Codebase is free from unused or unnecessary dependencies.
 69. [ ] All third-party libraries are properly integrated and configured.
 
-\*\*State Management
+## State Management
 
 70. [ ] No prop drilling, state is as close as the action as needed.
 71. [ ] State is managed efficiently using React state or state management libraries.
@@ -98,7 +98,7 @@
 73. [ ] Props not already in some context.
 74. [ ] No unnecessary useeffects
 
-\*\*User Experience (UX)
+## User Experience (UX)
 
 75. [ ] UI/UX design is consistent with mockups and style guides.
 76. [ ] Responsiveness is maintained for different screen sizes.
@@ -110,13 +110,13 @@
 82. [ ] Translations are implemented correctly (if applicable).
 83. [ ] Text can be easily translated without code changes.
 
-\*\*Development Environment
+## Development Environment
 
 84. [ ] Properly manages and updates the Redux/Context store (if used).
 85. [ ] Codebase is free from memory leaks in event listeners.
 86. [ ] Properly handles and tests for error boundaries.
 
-\*\*Third-Party Integrations
+## Third-Party Integrations
 
 87. [ ] Ensure third-party APIs and libraries are properly integrated and configured.
 88. [ ] Follow best practices for Redux (if used).
@@ -125,7 +125,7 @@
 91. [ ] Uses strict mode where appropriate.
 92. [ ] Properly handles browser events and DOM manipulation.
 
-\*\*Legal and Licensing
+## Legal and Licensing
 
 93. [ ] Ensure that all third-party libraries and assets have proper licensing and permissions.
 94. [ ] Codebase is well-documented for developers.
